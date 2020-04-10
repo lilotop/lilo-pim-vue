@@ -13,6 +13,9 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'prefer-const': 0,
+    'no-use-before-define': ["error", { "functions": false }],
+    '@typescript-eslint/no-use-before-define': ["error", { "functions": false, "classes": false }]
   }
-}
+};
