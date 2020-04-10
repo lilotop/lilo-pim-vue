@@ -1,25 +1,6 @@
 <template>
   <div class="home">
-    <v-form>
-      <v-textarea append-icon="mdi-pencil"></v-textarea>
-    </v-form>
-
-    <HelloWorld msg="Welcome to Your Vue.ts App" @something2="notify('something')" @anything="notify('anything')"/>
-
-    <v-btn dark @click="snackbar = true">Open Snackbar</v-btn>
-
-    <v-snackbar
-            v-model="snackbar"
-    >
-      this is a snack bar
-      <v-btn
-              color="pink"
-              text
-              @click="snackbar = false"
-      >
-        Close
-      </v-btn>
-    </v-snackbar>
+    <HelloWorld msg="Welcome to Your Vue.ts App"/>
 
   </div>
 </template>

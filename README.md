@@ -15,3 +15,10 @@ Demo of Personal Information Manager, created in VueJS.
 - Mobile first, responsive design
 - Multi language support (currently English and Hebrew)
 - Themable (light and dark theme provided, can create a custom theme)
+
+## Design
+
+### Data layer
+This layer represents the api to the server and the data that it supplies.
+
+![alt text](design/data.png)
